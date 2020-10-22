@@ -3,7 +3,7 @@ const layout = document.getElementById('layout');
 const imageZoomContainer = document.getElementById('image-zoom-container');
 
 /////////////////////////////////////
-let documentWidth = document.getElementById('document-width');
+// let documentWidth = document.getElementById('document-width');
 let bodyWidth;
 let bodyHeight;
 const scrollbarWidth = 17;
@@ -72,7 +72,7 @@ const projectData = [
     },
     {
         'name': 'Binusmaya Notification Center (prototype)',
-        'description': "A prototype built for Human-computer Interaction course. We knew there are some improvement that can be done with Binusmaya Notification Center.",
+        'description': "A prototype built for Human-computer Interaction course. We knew there're some improvement that can be done with Binusmaya Notification Center.",
         'role': 'Front-end',
         'tool': 'HTML | CSS | Javascript',
         'dir': 'bimay-notif',
@@ -215,7 +215,7 @@ function setLayoutWidth() {
     bodyWidth = root.clientWidth;
     bodyHeight = root.clientHeight;
 
-    documentWidth.innerHTML = bodyWidth;
+    // documentWidth.innerHTML = bodyWidth;
     if (bodyWidth > 1032 + scrollbarWidth) {
         layout.style.width = 1000 + 'px';
     } else {

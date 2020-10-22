@@ -13,6 +13,17 @@ body {
     background-color: #212121;
 }
 
+footer {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.contact-link {
+    height: 64px;
+    filter: grayscale(1);
+    margin: 0 8px;
+}
+
 /* ================================= */
 #profile {
     display: flex;
