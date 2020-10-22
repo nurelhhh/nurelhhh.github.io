@@ -61,7 +61,7 @@ const projectData = [
     },
     {
         'name': 'Sentiment Analysis on "Kuliah Online"',
-        'description': "Finding out what are Indonesian college-students' sentiment on cnline class during pandemic.",
+        'description': "Finding out what are Indonesian college-students' sentiment on online class during pandemic.",
         'role': 'Data Team | Front-end',
         'tool': 'Python | Twitter Dev API | Pandas | HTML | CSS | Javascript',
         'dir': 'sentiment-kulon',
@@ -72,7 +72,7 @@ const projectData = [
     },
     {
         'name': 'Binusmaya Notification Center (prototype)',
-        'description': "A prototype built for Human-computer Interaction course. We knew there're some improvement that can be done with Binusmaya Notification Center.",
+        'description': "A prototype built for Human-computer Interaction course. We knew there're some improvements that can be done with Binusmaya Notification Center.",
         'role': 'Front-end',
         'tool': 'HTML | CSS | Javascript',
         'dir': 'bimay-notif',
@@ -113,7 +113,7 @@ const projectData = [
     },
     {
         'name': 'Speak What You Wanna Speak App (prototype)',
-        'description': "An Android app that makes it easy to train english-speaking skill and make them dare to express in english. User are gives questions based on category they selected, and they could answer each question as the app recording, then they can see gain insight on how good their pronunciation.",
+        'description': "An Android app that makes it easy to train english-speaking skill and make them more confident to express in english. Users are given questions based on category they selected, and they could answer each question as the app recording, then they can gain insight on how good their pronunciation.",
         'role': 'Back-end | Front-end | Designer',
         'tool': 'Android Studio | Java',
         'dir': 'swyws',
