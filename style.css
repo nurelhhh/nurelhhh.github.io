@@ -216,3 +216,13 @@ footer {
         display: block;
     }
 }
+
+
+@keyframes swipingUp {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0%;
+    }
+}

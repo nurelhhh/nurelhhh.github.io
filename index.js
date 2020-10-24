@@ -26,6 +26,7 @@ window.addEventListener('resize', () => {
 /////////////////////////////////////
 imageZoomContainer.onclick = () => {
     imageZoomContainer.style.visibility = "collapse";
+    imageZoomContainer.style.animationName = 'none';
 }
 
 function setImageZoomContainer() {
@@ -166,10 +167,11 @@ for (let i=0; i<projectData.length; i++) {
 
     projectCurrentAssets[i].onclick = () => {
 
-        
+        // swipeUpAnim();
+        imageZoomContainer.style.animationName = "swipingUp";
+        imageZoomContainer.style.animationDuration = '0.2s';
         imageZoomContainer.style.visibility = "visible";
-
-        swipeUpAnim();
+        
 
         currentImageZoom.setAttribute('src', projectCurrentAssets[i].getAttribute('src'));
 
@@ -224,18 +226,4 @@ function setLayoutWidth() {
 
     setImageZoomContainer();
     setCurrentImageZoom();
-}
-
-function swipeUpAnim() {
-    let currentTop = 100;
-    let key = setInterval(anim, 2);
-
-    function anim() {
-        imageZoomContainer.style.top = currentTop + '%';
-        currentTop -= 2;
-
-        if (currentTop <= 0) {
-            clearInterval(key);
-        }
-    };
 }
