@@ -114,7 +114,7 @@ const projectData = [
     {
         'name': 'Speak What You Wanna Speak App (prototype)',
         'description': "An Android app that makes it easy to train english-speaking skill and make them more confident to express in english. Users are given questions based on category they selected, and they could answer each question as the app recording, then they can gain insight on how good their pronunciation.",
-        'role': 'Back-end | Front-end | Designer',
+        'role': 'Back-end | Front-end',
         'tool': 'Android Studio | Java',
         'dir': 'swyws',
         'assets': [
