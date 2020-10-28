@@ -168,12 +168,11 @@ for (let i=0; i<projectData.length; i++) {
     projectCurrentAssets[i].onclick = () => {
 
         // swipeUpAnim();
+        currentImageZoom.setAttribute('src', projectCurrentAssets[i].getAttribute('src'));
+
         imageZoomContainer.style.animationName = "swipingUp";
         imageZoomContainer.style.animationDuration = '0.2s';
         imageZoomContainer.style.visibility = "visible";
-        
-
-        currentImageZoom.setAttribute('src', projectCurrentAssets[i].getAttribute('src'));
 
         setCurrentImageZoom();
         
