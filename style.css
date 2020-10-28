@@ -18,10 +18,26 @@ footer {
     padding: 16px 0;
 }
 
+
+#contact-github {
+    background-image: url("./assets/GitHub-Mark-Light-120px-plus.png");
+}
+
+#contact-linkedin {
+    background-image: url("./assets/LI-In-Bug.png");
+}
+
+#contact-mail {
+    background-image: url("./assets/email-logo.png");
+}
+
 .contact-link {
+    display: inline-block;
+    width: 64px;
     height: 64px;
     filter: grayscale(1);
     margin: 0 8px;
+    background-size: cover;
 }
 
 /* ================================= */
@@ -42,7 +58,9 @@ footer {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover;
+
+    background-image: url("./assets/selfie-me_compressed.png");
+    background-size: cover;
 }
 
 #profile-name {
@@ -54,9 +72,17 @@ footer {
     padding: 4px;
 }
 
+#profile-name::before {
+    content: "Tengku Nurel Harsya";
+}
+
 #profile-description {
     font-size: 20px;
     color: white;
+}
+
+#profile-description::before {
+    content: "Computer Science student streaming in Intelligent System | Love to solve problems";
 }
 
 #profile-content-2 {
@@ -175,7 +201,6 @@ footer {
     transform: translateX(-50%);
 
     visibility: collapse;
-
     
     margin: 0;
     padding: 0;
