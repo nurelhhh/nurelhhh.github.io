@@ -13,6 +13,7 @@ let currentImageZoomWidth;
 let currentImageZoomHeight;
 
 setLayoutWidth();
+bodyHeight = root.clientHeight + 17;
 
 window.addEventListener('resize', () => {
     setLayoutWidth();
@@ -46,6 +47,19 @@ const projectListDiv = document.getElementById('project-list');
 const projectAssetRoot = './projects/';
 
 const projectData = [
+    {
+        'name': 'BeeFlix',
+        'description': "A platform to find information about your favorite movie. This is a project that\'s assigned on Mid Exam of Web Programming (COMP6144).",
+        'role': 'Laravel Developer',
+        'tool': 'Laravel | MySQL',
+        'dir': 'beeflix',
+        'assets': [
+            '/home.jpg',
+            '/movie-detail.jpg',
+            '/all-movies.jpg'
+        ],
+        'period': 'November 2020'
+    },
     {
         'name': 'Tobaku Mandiri App',
         'description': "An Android app to track items' stock, price, transaction, and more.",
@@ -188,8 +202,6 @@ for (let i=0; i<projectData.length; i++) {
     }
 }
 
-
-
 function setCurrentImageZoom() {
 
 
@@ -198,7 +210,6 @@ function setCurrentImageZoom() {
     
     currentImageZoomWidth = currentImageZoom.clientWidth;
     currentImageZoomHeight = currentImageZoom.clientHeight;
-    
     if (currentImageZoomWidth > currentImageZoomHeight) {
         if (bodyWidth > bodyHeight) {
             currentImageZoom.style.height = (bodyHeight - 32) + 'px';

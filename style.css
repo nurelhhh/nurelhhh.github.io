@@ -58,9 +58,13 @@ footer {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    filter: grayscale(0);
 
-    background-image: url("./assets/selfie-me_compressed.png");
-    background-size: cover;
+    background-image: url("./assets/me_selfie_gray.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
 }
 
 #profile-name {
