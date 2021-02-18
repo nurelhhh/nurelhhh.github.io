@@ -48,6 +48,22 @@ const projectAssetRoot = './projects/';
 
 const projectData = [
     {
+        'name': 'Common Counter',
+        'description': `Count you activities with this app! Count your life! This app provides counting tool which each item has complete attributes: name, count, unit, note, and category.`,
+        'role': 'Android Developer',
+        'tool': 'Android Studio | Java',
+        'dir': 'common-counter',
+        'assets': [
+            '/1.png',
+            '/2.png',
+            '/3.png',
+            '/4.png',
+        ],
+        'type': 'Personal project',
+        'status': '<a href="https://play.google.com/store/apps/details?id=com.common.commoncounter">Google Play</a>',
+        'period': 'February 2021'
+    },
+    {
         'name': 'BeeFlix',
         'description': "A platform to find information about your favorite movie. This is a project that\'s assigned on Mid Exam of Web Programming (COMP6144).",
         'role': 'Laravel Developer',
@@ -58,6 +74,8 @@ const projectData = [
             '/movie-detail.jpg',
             '/all-movies.jpg'
         ],
+        'type': 'School project',
+        'status': 'Private',
         'period': 'November 2020'
     },
     {
@@ -72,6 +90,8 @@ const projectData = [
             '/checkout.jpg',
             '/statistics.jpg'
         ],
+        'type': 'Personal project',
+        'status': 'Private',
         'period': 'August 2020'
     },
     {
@@ -83,6 +103,8 @@ const projectData = [
         'assets': [
             '/kulon-web.png'
         ],
+        'type': 'School project',
+        'status': 'Private',
         'period': 'June 2020'
     },
     {
@@ -96,6 +118,8 @@ const projectData = [
             '/notif-2.png',
             '/notif-3.png',
         ],
+        'type': 'School project',
+        'status': 'Private',
         'period': 'June 2020'
     },
     {
@@ -110,6 +134,8 @@ const projectData = [
             '/art-web-3.png',
             '/art-web-4.png'
         ],
+        'type': 'School project',
+        'status': 'Private',
         'period': 'May 2020'
     },
     {
@@ -124,6 +150,8 @@ const projectData = [
             '/user-page.png',
             '/contact-page.png'
         ],
+        'type': 'School project',
+        'status': 'Private',
         'period': 'May 2020'
     },
     {
@@ -138,6 +166,8 @@ const projectData = [
             '/speak.jpg',
             '/speak-2.jpg'
         ],
+        'type': 'School project',
+        'status': 'Private',
         'period': 'May 2019'
     }
 ];
@@ -157,6 +187,8 @@ for (let i=0; i<projectData.length; i++) {
                     <span class="project-description project-attribute">${projectData[i]['description']}</span>
                     <span class="project-role project-attribute">${projectData[i]['role']}</span>
                     <span class="project-tool project-attribute">${projectData[i]['tool']}</span>
+                    <span class="project-type project-attribute">${projectData[i]['type']}</span>
+                    <span class="project-status project-attribute">${projectData[i]['status']}</span>
                     <span class="project-period project-attribute">${projectData[i]['period']}</span>
                 </div>
             </div>

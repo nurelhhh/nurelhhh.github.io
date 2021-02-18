@@ -1,3 +1,8 @@
+:root {
+    --link-color: rgba(0, 255, 255, 0.774);
+    --link-color-hover:rgba(0, 139, 139, 0.664);
+}
+
 body {
     font-family: sans-serif;
     background-color: #212121;
@@ -5,6 +10,14 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-color-hover);
+}
 
 #layout {
     width: 1000px;
@@ -120,9 +133,15 @@ footer {
 .project-attribute {
     display: block;
     margin-bottom: 8px;
+    font-size: 20px;
 }
 
-.project-description::before, .project-role::before, .project-tool::before, .project-period::before {
+.project-description::before, 
+.project-role::before, 
+.project-tool::before, 
+.project-type::before, 
+.project-status::before, 
+.project-period::before {
     display: block;
     color: salmon;
     font-weight: bold;
@@ -138,6 +157,14 @@ footer {
 
 .project-tool::before {
     content: "Tool";
+
+}
+.project-type::before {
+    content: "Type";
+}
+
+.project-status::before {
+    content: "Status";
 }
 
 .project-period::before {
@@ -148,10 +175,6 @@ footer {
     font-size: 35px;
     font-weight: bolder;
     text-align: right;
-}
-
-.project-description, .project-role, .project-tool, .project-period {
-    font-size: 20px;
 }
 
 .project-image-corousel-container {
