@@ -49,7 +49,7 @@ const projectAssetRoot = './projects/';
 const projectData = [
     {
         'name': 'Common Counter',
-        'description': `Count you activities with this app! Count your life! This app provides counting tool which each item has complete attributes: name, count, unit, note, and category.`,
+        'description': `Count your activities with this app! Count your life! This app provides counting tool which each item has complete attributes: name, count, unit, note, and category.`,
         'role': 'Android Developer',
         'tool': 'Android Studio | Java',
         'dir': 'common-counter',
@@ -60,7 +60,7 @@ const projectData = [
             '/4.png',
         ],
         'type': 'Personal project',
-        'status': '<a href="https://play.google.com/store/apps/details?id=com.common.commoncounter">Google Play</a>',
+        'status': '<a href="https://play.google.com/store/apps/details?id=com.common.commoncounter" target="_blank">Google Play</a>',
         'period': 'February 2021'
     },
     {
