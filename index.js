@@ -48,6 +48,22 @@ const projectAssetRoot = './projects/';
 
 const projectData = [
     {
+        'name': 'Kelas Malam',
+        'description': `Cerita seram dan horror dari kampus-kampus seperti UI, ITB, BINUS, STAN, dsb. Cerita dihimpun dari berbagai sumber di internet, sehingga kalian dapat menikmatinya langsung dari aplikasi ini.`,
+        'role': 'Android Developer',
+        'tool': 'Android Studio | Java',
+        'dir': 'kelas-malam',
+        'assets': [
+            '/1.jpg',
+            '/2.jpg',
+            '/3.jpg',
+            '/4.jpg',
+        ],
+        'type': 'Personal project',
+        'status': '<a href="https://play.google.com/store/apps/details?id=com.mandiri.kelasmalam" target="_blank">Google Play</a>',
+        'period': 'May 2021'
+    },
+    {
         'name': 'Common Counter',
         'description': `Count your activities with this app! Count your life! This app provides counting tool which each item has complete attributes: name, count, unit, note, and category.`,
         'role': 'Android Developer',
@@ -81,7 +97,7 @@ const projectData = [
     {
         'name': 'Tobaku Mandiri App',
         'description': "An Android app to track items' stock, price, transaction, and more.",
-        'role': 'Back-end | Front-end | Designer',
+        'role': 'Android Developer',
         'tool': 'Android Studio | Kotlin',
         'dir': 'tobaku-mandiri',
         'assets': [
@@ -108,56 +124,9 @@ const projectData = [
         'period': 'June 2020'
     },
     {
-        'name': 'Binusmaya Notification Center (prototype)',
-        'description': "A prototype built for Human-computer Interaction course. We knew there're some improvements that can be done with Binusmaya Notification Center.",
-        'role': 'Front-end',
-        'tool': 'HTML | CSS | Javascript',
-        'dir': 'bimay-notif',
-        'assets': [
-            '/notif-1.png',
-            '/notif-2.png',
-            '/notif-3.png',
-        ],
-        'type': 'School project',
-        'status': 'Private',
-        'period': 'June 2020'
-    },
-    {
-        'name': 'Art Company Website (prototype)',
-        'description': "This project is assigned in Human-computer Interaction course and we're asked to build a company website.",
-        'role': 'Front-end team',
-        'tool': 'HTML | CSS | Javascript',
-        'dir': 'art-web',
-        'assets': [
-            '/art-web-1.png',
-            '/art-web-2.png',
-            '/art-web-3.png',
-            '/art-web-4.png'
-        ],
-        'type': 'School project',
-        'status': 'Private',
-        'period': 'May 2020'
-    },
-    {
-        'name': 'Sunib Nyari Website (prototype)',
-        'description': "Sunib Nyari is a platform that provides tasks, assignments, and projects reference of former or current Binusian so the active Binusian can gain inspiration to build one for their college-work.",
-        'role': 'Front-end team',
-        'tool': 'HTML | CSS | Javascript',
-        'dir': 'sunib-nyari',
-        'assets': [
-            '/home.png',
-            '/course-page.png',
-            '/user-page.png',
-            '/contact-page.png'
-        ],
-        'type': 'School project',
-        'status': 'Private',
-        'period': 'May 2020'
-    },
-    {
         'name': 'Speak What You Wanna Speak App (prototype)',
         'description': "An Android app that makes it easy to train english-speaking skill and make them more confident to express in english. Users are given questions based on category they selected, and they could answer each question as the app recording, then they can gain insight on how good their pronunciation.",
-        'role': 'Back-end | Front-end',
+        'role': 'Android Developer',
         'tool': 'Android Studio | Java',
         'dir': 'swyws',
         'assets': [
