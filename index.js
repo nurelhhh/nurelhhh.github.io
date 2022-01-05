@@ -48,6 +48,22 @@ const projectAssetRoot = './projects/';
 
 const projectData = [
     {
+        'name': 'Curcol21',
+        'description': `Tempat asik buat lo curhat! Menyediakan berbagai macam kategori menarik buat curhat colongan bikinan lo.`,
+        'role': 'Full-stack Developer',
+        'tool': 'Next.JS | Firebase',
+        'dir': 'curcol21',
+        'assets': [
+            '/1.jpg',
+            '/2.jpg',
+            '/3.jpg',
+            '/4.jpg',
+        ],
+        'type': 'Personal project',
+        'status': 'Live @ <a href="https://www.curcol21.com/" target="_blank">Curcol21.com</a>',
+        'period': 'August 2021'
+    },
+    {
         'name': 'Kelas Malam',
         'description': `Cerita seram dan horror dari kampus-kampus seperti UI, ITB, BINUS, STAN, dsb. Cerita dihimpun dari berbagai sumber di internet, sehingga kalian dapat menikmatinya langsung dari aplikasi ini.`,
         'role': 'Android Developer',
