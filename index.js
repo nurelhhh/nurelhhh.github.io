@@ -48,6 +48,23 @@ const projectAssetRoot = './projects/';
 
 const projectData = [
     {
+        'name': 'Common Liked Songs',
+        'description': `See what Spotify songs you and others have in common.`,
+        'role': 'Full-stack Developer',
+        'tool': 'Next.JS | MongoDB | Vercel',
+        'dir': 'cls',
+        'assets': [
+            '/1.png',
+            '/2.png',
+            '/3.png',
+            '/4.png',
+            '/5.png'
+        ],
+        'type': 'Personal project',
+        'status': 'Live @ <a href="https://www.commonlikedsongs.com/" target="_blank">CommonLikedSongs.com</a>',
+        'period': 'March 2023'
+    },
+    {
         'name': 'Curcol21',
         'description': `Tempat asik buat lo curhat! Menyediakan berbagai macam kategori menarik buat curhat colongan bikinan lo.`,
         'role': 'Full-stack Developer',
@@ -60,7 +77,7 @@ const projectData = [
             '/4.jpg',
         ],
         'type': 'Personal project',
-        'status': 'Live @ <a href="https://www.curcol21.com/" target="_blank">Curcol21.com</a>',
+        'status': 'Previously Live @ <a href="https://www.curcol21.com/" target="_blank">Curcol21.com</a>',
         'period': 'August 2021'
     },
     {
